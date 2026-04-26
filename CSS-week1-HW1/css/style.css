@@ -1,18 +1,20 @@
+/* ===== BODY ===== */
 body {
     font-family: Arial, sans-serif;
+    font-size: 16px;
     background-color: #f4f4f4;
     margin: 0;
 }
 
-/* Header */
+/* ===== HEADER ===== */
 header {
     background-color: #222;
-    color: white;
+    color: #ffffff;
     text-align: center;
     padding: 15px;
 }
 
-/* Nav */
+/* ===== NAVIGATION ===== */
 nav {
     background-color: #444;
     text-align: center;
@@ -20,41 +22,52 @@ nav {
 }
 
 nav a {
-    color: white;
-    margin: 10px;
+    color: #ffffff;
     text-decoration: none;
+    margin: 0 15px;
     font-weight: bold;
 }
 
-/* Main */
-main {
-    background-color: white;
-    padding: 20px;
-    color: #333;
+nav a:hover {
+    text-decoration: underline;
 }
 
-/* Footer */
+/* ===== MAIN CONTENT ===== */
+main {
+    background-color: #ffffff;
+    padding: 20px;
+    font-size: 18px;
+    color: #333333;
+}
+
+/* ===== FOOTER ===== */
 footer {
     background-color: #222;
-    color: white;
+    color: #dddddd;
     text-align: center;
     padding: 10px;
 }
 
-/* List */
+footer a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* ===== LIST ITEMS ===== */
 li {
     display: inline-block;
     width: 120px;
 }
 
-/* Heading */
+/* ===== HEADINGS ===== */
 h1 {
-    color: white;
     text-align: center;
+    font-family: Georgia, serif;
+    color: #ffffff;
 }
 
-/* Paragraph */
+/* ===== PARAGRAPHS ===== */
 p {
-    color: #333;
     line-height: 1.6;
+    color: #333333;
 }
